@@ -6,7 +6,8 @@ import back from '../../images/back.jpeg'
 export default function Promo() {
   return (
     <section className='promo'>
-      <img className='promo__background' src={back} alt='фон'/>
+      {/* <img className='promo__background' src={back} alt='фон'/> */}
+      <div className='promo__background'></div>
       <div className='promo__container'>
         <div className='promo__about'>
           <div>
