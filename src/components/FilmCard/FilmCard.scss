@@ -1,0 +1,36 @@
+.card {
+    margin: 0;
+    padding: 0;
+    max-width: 350px;
+    background-color: #2F3951;
+    display: flex;
+    border-radius: 16px;
+    align-items: center;
+    overflow: hidden;
+    cursor: pointer;
+    transition: .4s;
+    border: none;
+
+    &:hover {
+        box-shadow: 0 0 10px 3px  #F0D288;
+    }
+
+    .card__image {
+        margin: 0;
+        padding: 0;
+        max-width: 117px;
+        height: 123px;
+        object-fit: cover;
+    }
+
+    .card__title {
+        margin: 0;
+        padding: 0;
+        color: #fff;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        line-height: normal;
+        font-weight: 400;
+        margin-left: 15px;
+    }
+}

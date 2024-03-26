@@ -1,13 +1,16 @@
 import React from 'react';
 import './Promo.scss';
 import star from '../../images/liked.svg';
-import back from '../../images/back.jpeg'
 
-export default function Promo() {
+
+
+const Promo = () => {
   return (
     <section className='promo'>
-      {/* <img className='promo__background' src={back} alt='фон'/> */}
-      <div className='promo__background'></div>
+      <div className='promo__background'>
+        <img src='http://neattysh.ru/wp-content/uploads/2013/08/kino-043.jpg' alt='фон' />
+        <div></div>
+      </div>
       <div className='promo__container'>
         <div className='promo__about'>
           <div>
@@ -26,3 +29,6 @@ export default function Promo() {
     </section>
   )
 }
+
+
+export default Promo;
